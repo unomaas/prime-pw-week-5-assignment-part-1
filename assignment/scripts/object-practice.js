@@ -53,10 +53,12 @@ console.log("\n");
 
 
 /* 5. Add a new property to an existing object.
-  - Add a 'favoriteColor' to your existing object
-  - Do this the same way you updated the variable above
-  - Cool huh? It works, even though it wasn't there before
-  - Console.log your object */
+  - Add a 'favoriteColor' to your existing object (DONE)
+  - Do this the same way you updated the variable above (DONE)
+  - Cool huh? It works, even though it wasn't there before (AGREED)
+  - Console.log your object (DONE) */
 console.log("--- Question #5. ---");
-
+me.favoriteColor = "Red";
+console.log(`My newly added favorite color is (expect 'Red'): `, me.favoriteColor);
+console.log('A little about me: ', me);
 console.log("\n");
