@@ -16,15 +16,15 @@ const me = {
   hasSiblings: false,
   shoeCount: 6,
   favThreeFoods: ["Ice Cream", "Penne Rosa", "Mashed Potatoes"],
-};
+}; // End object literal "me".
 console.log('A little about me:', me);
 console.log("\n");
 
 
 /* 2. Accessing object properties.
-  - Create a variable called fullName
-  - Use the firstName & lastName properties of the object you created above to set its value.
-  - Console.log fullName */
+  - Create a variable called fullName (DONE)
+  - Use the firstName & lastName properties of the object you created above to set its value. (DONE)
+  - Console.log fullName (DONE) */
 console.log("--- Question #2. ---");
 const fullName = `${me.firstName} ${me.lastName};`
 console.log(`My full name is (expect 'Ryan Maas'): `, fullName);
@@ -32,8 +32,8 @@ console.log("\n");
 
 
 /* 3. Nested arrays
-  - Console.log your first favorite food
-  - Console.log your last favorite food */
+  - Console.log your first favorite food (DONE)
+  - Console.log your last favorite food (DONE) */
 console.log("--- Question #3. ---");
 console.log(`My first favorite food is (expect 'Ice Cream'): `, me.favThreeFoods[0]);
 console.log(`My third favorite food is (expect 'Mashed Potatoes'): `, me.favThreeFoods[me.favThreeFoods.length - 1]); // I realize this could be done with [2] to reference the third element specifically, but wanted to practice being able to always reference the 'last item' in the array. :)
@@ -41,14 +41,14 @@ console.log("\n");
 
 
 /* 4. Change a property of an existing object.
-  - Console.log your current shoe count.
-  - Guess what?! You just got a new pair of shoes!!!
-  - Set your object's shoeCount to be what it was plus 1
-  - Console.log your updated shoe count. */
+  - Console.log your current shoe count. (DONE)
+  - Guess what?! You just got a new pair of shoes!!! (YAY)
+  - Set your object's shoeCount to be what it was plus 1 (DONE)
+  - Console.log your updated shoe count. (DONE) */
 console.log("--- Question #4. ---");
 console.log(`My current shoe count is (expect '6'): `, me.shoeCount);
 me.shoeCount += 1; // You specifically asked us to add '1', not '1 pair'. =P
-console.log(`My new shoe count is (expect '7'): `, me.shoeCount); 
+console.log(`My new shoe count is (expect '7'): `, me.shoeCount);
 console.log("\n");
 
 
